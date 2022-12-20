@@ -18,3 +18,9 @@ Selection function: This function is used to choose the candidate or subset whic
 Feasibility function: A function that is used to determine whether the candidate or subset can be used to contribute to the solution or not.
 Objective function: A function is used to assign the value to the solution or the partial solution.
 Solution function: This function is used to intimate whether the complete function has been reached or not.
+
+Applications of Greedy Algorithm
+It is used in finding the shortest path.
+It is used to find the minimum spanning tree using the prim's algorithm or the Kruskal's algorithm.
+It is used in a job sequencing with a deadline.
+This algorithm is also used to solve the fractional knapsack problem.

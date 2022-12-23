@@ -10,9 +10,9 @@
 <li>Create a set mstSet that keeps track of vertices already included in MST. 
 <li>Assign a key value to all vertices in the input graph. Initialize all key values as INFINITE. Assign the key value as 0 for the first vertex so that it is picked first.
 <dl>
-  <dt>While mstSet doesn’t include all vertices,</dt> 
-  <dd>Pick a vertex u which is not there in mstSet and has a minimum key value.</dd> 
-  <dd>Include u in the mstSet.</dd>
-  <dd>Update the key value of all adjacent vertices of u. To update the key values, iterate through all adjacent vertices.</dd> 
-  <dd>For every adjacent vertex v, if the weight of edge u-v is less than the previous key value of v, update the key value as the weight of u-v.</dd>
-  </dl>
+  <li>While mstSet doesn’t include all vertices,
+  <dd><li>Pick a vertex u which is not there in mstSet and has a minimum key value. 
+  <li>Include u in the mstSet.
+  <li>Update the key value of all adjacent vertices of u. To update the key values, iterate through all adjacent vertices.
+  <li>For every adjacent vertex v, if the weight of edge u-v is less than the previous key value of v, update the key value as the weight of u-v.
+</dl>
